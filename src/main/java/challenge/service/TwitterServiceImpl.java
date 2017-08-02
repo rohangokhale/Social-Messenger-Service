@@ -1,8 +1,5 @@
 package challenge.service;
 
-import challenge.bean.Message;
-import challenge.bean.Person;
-import challenge.bean.MostPopularFollowerByUser;
 import challenge.dao.TwitterDAO;
 
 import java.util.List;
@@ -12,6 +9,9 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import challenge.service.ITwitterService;
+import service.bean.Message;
+import service.bean.MostPopularFollowerByUser;
+import service.bean.Person;
 
 @Service
 public class TwitterServiceImpl implements ITwitterService{

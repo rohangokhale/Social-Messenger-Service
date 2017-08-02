@@ -10,12 +10,13 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.stereotype.Repository;
 
-import challenge.bean.Message;
-import challenge.bean.Person;
 import challenge.mappers.MessageMapper;
 import challenge.mappers.MostPopularFollowerByUserMapper;
 import challenge.mappers.PersonMapper;
-import challenge.bean.MostPopularFollowerByUser;
+import service.bean.Message;
+import service.bean.MostPopularFollowerByUser;
+import service.bean.Person;
+
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 

@@ -1,10 +1,10 @@
 package challenge.service;
 
-import challenge.bean.Person;
-import challenge.bean.Message;
-import challenge.bean.MostPopularFollowerByUser;
-
 import java.util.List;
+
+import service.bean.Message;
+import service.bean.MostPopularFollowerByUser;
+import service.bean.Person;
 
 public interface ITwitterService {
 	

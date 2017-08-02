@@ -26,7 +26,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		PasswordEncoder encoder = new Encoder();
 		
 		auth.jdbcAuthentication().dataSource(dataSource)
-			.passwordEncoder(encoder)
+			//.passwordEncoder(encoder)
 			.usersByUsernameQuery("SELECT handle, password, enabled FROM people WHERE handle=?")
 			.authoritiesByUsernameQuery("SELECT handle, 'ROLE_USER' FROM people WHERE handle=?");
 	}

@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import challenge.bean.MostPopularFollowerByUser;
+import service.bean.MostPopularFollowerByUser;
 
 public class MostPopularFollowerByUserMapper implements RowMapper{
 	public MostPopularFollowerByUser mapRow(ResultSet rs, int rowNum) throws SQLException{

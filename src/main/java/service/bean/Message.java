@@ -1,4 +1,4 @@
-package challenge.bean;
+package service.bean;
 
 
 public class Message{
