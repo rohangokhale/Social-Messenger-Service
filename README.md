@@ -2,13 +2,16 @@
 
 # Getting Started
 
+To quickly run the project on the command line, clone the project, then head to the root folder and enter:
 
-To quickly run the project on the command line, head to the root folder and enter:
 gradlew bootRun
-to start the application. You can then access the endpoints at http://localhost:8080/endpointname.
-Example: http://localhost:8080/mymessages	username: superman password: superman
-The preferred way to play around with the application is with Postman. For the basic authentication
-field, use username:superman and password:superman.
+
+to start the application.
+
+The preferred way to play around with the application is with Postman (https://www.getpostman.com/postman). You can also use curl (example calls provided below), as well as simply using a web browser (example: http://localhost:8080/endpointname.) Please see the API below for available endpoints and request methods. 
+
+<b>Basic Authentication is enabled for all endpoints.</b> You can use username: dwight and password: dwight for testing out the service.
+
 
 
 

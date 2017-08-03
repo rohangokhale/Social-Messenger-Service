@@ -1,30 +1,30 @@
 -- People
 INSERT INTO people (id, handle, name, password)
 VALUES
-    (1, 'batman', 'Bruce Wayne','batman'),
-    (2, 'superman', 'Clark Kent', 'superman'),
-    (3, 'catwoman', 'Selina Kyle', 'catwoman'),
-    (4, 'daredevil', 'Matt Murdock', 'daredevil'),
-    (5, 'alfred', 'Alfred Pennyworth', 'alfred'),
-    (6, 'dococ', 'Otto Octavius', 'dococ'),
-    (7, 'zod', 'Dru-Zod', 'zod'),
-    (8, 'spiderman', 'Peter Parker', 'spiderman'),
-    (9, 'ironman', 'Tony Stark', 'ironman'),
-    (10, 'profx', 'Charles Xavier', 'profx');
+    (1, 'dwight', 'Dwight Schrute','dwight'),
+    (2, 'michael', 'Michael Scott', 'michael'),
+    (3, 'jim', 'Jim Halpert', 'jim'),
+    (4, 'pam', 'Pam Beesly', 'pam'),
+    (5, 'creedthoughts', 'Creed Bratton', 'creedthoughts'),
+    (6, 'kev','Kevin Malone', 'kev'),
+    (7, 'catlover24', 'Angela Martin', 'catlover24'),
+    (8, 'oscar', 'Oscar Martinez', 'oscar'),
+    (9, 'stanley', 'Stanley Hudson', 'stanley'),
+    (10, 'narddog', 'Andy Bernard', 'narddog');
 
 -- Messages
 INSERT INTO messages (person_id, content)
 VALUES
-    (1, 'It''s not who I am underneath, but what I do that defines me.'),
-    (2, 'There is a right and a wrong in the universe. And the distinction is not hard to make.'),
-    (3, 'Cats come when they feel like, not when they''re told.'),
-    (4, 'Violence doesn''t discriminate. It comes as cold and bracing as a winter breeze and it leaves you with a chill you can''t shake off.'),
-    (5, 'Some men aren''t looking for something logical, some men just want to watch the world burn.'),
-    (6, 'Intelligence is a privilege, and it needs to be used for the greater good of people.'),
-    (7, 'I exist only to protect Krypton. Every action, no matter how violent or cruel, is for the greater good of my people.'),
-    (8, 'With great power comes great responsibility.'),
-    (9, 'I shouldn''t be alive, unless it was for a reason. I know what I have to do, and I know it is right.'),
-    (10, 'Just because someone stumbles and loses their path doesn''t mean they can''t be saved.');
+    (1, 'R is among the most menacing of sounds. That''s why they call it murder and not mukduk.'),
+    (2, 'I''m not superstitious, but I am a little stitious.'),
+    (3, 'Fact, bears eat beets. Bears, beets, Battlestar Galactica.'),
+    (4, 'You can''t be scared of a room full of Jims. I love the guy but he''s basically Gumby with hair.'),
+    (5, 'If I can''t scuba, then what''s this all been about?'),
+    (6, 'Mini cupcakes? As in the mini version of regular cupcakes? Which is already the mini version of cake?'),
+    (7, 'I find the mystery genre disgusting. I hate being titillated.'),
+    (8, 'Just saying it''s sterile doesn''t make it so.'),
+    (9, 'I''m ok with the logic of it.'),
+    (10, 'I cant''t tell if he''s mocking me.');
 
 INSERT INTO messages (person_id, content)
 VALUES
