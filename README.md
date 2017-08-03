@@ -12,10 +12,10 @@ field, use username:superman and password:superman.
 
 
 
-#API
+# API
 
 
-###getMessages
+### getMessages
 Endpoint to get the user's timeline, made up of messages authored by the people they follow as well as authored by themselves.
 
 URL
