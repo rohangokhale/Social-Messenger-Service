@@ -18,29 +18,38 @@ field, use username:superman and password:superman.
 ### getMessages
 Endpoint to get the user's timeline, made up of messages authored by the people they follow as well as authored by themselves.
 
-URL
+#####URL
+
 /mymessages
 
-Method:
+#####Method:
+
 GET
 
-URL Params
+#####URL Params
+
 Required: none
+
 Optional: searchTerm - to enable filtering of messages that contain the searchTerm
 
-Success Response:
+#####Success Response:
+
 Code: 200 
+
 Content: { id : id, personId : personId, content : content }...{ id : id, personId : personId, content : content }
 This will be a list of messages, with the message's id, id of the author, and content of the message.
 
-Error Response:
+#####Error Response:
+
 Code: 401 UNAUTHORIZED 
+
 Content: {"timestamp":1500306594978,"status":401,"error":"Unauthorized","message":"Bad credentials","path":"/mymessages"}
 
-Sample Call:
+#####Sample Curl Call:
+
 curl -i -u superman:superman http://localhost:8080/mymessages?search=Krypton
 
-Notes:
+#####Notes:
 
 _____________
 getFollowers
