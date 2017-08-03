@@ -51,33 +51,37 @@ curl -i -u superman:superman http://localhost:8080/mymessages?search=Krypton
 
 ##### Notes:
 
-_____________
-getFollowers
+_____________________
+
+### getFollowers
 Get the people that are following the user, as well as the people the user is following
 
-URL
+##### URL
 /followers
 
-Method:
+##### Method:
 GET
 
-URL Params
+##### URL Params
 Required: none
+
 Optional: none
 
-Success Response:
+##### Success Response:
 Code: 200 
+
 Content: {followers: [{id:id, handle:handle, name:name},...{id:id, handle:handle, name:name}],
 		{following: [{id:id, handle:handle, name:name},...{id:id, handle:handle, name:name}]
 
-Error Response:
-Code: 401 UNAUTHORIZED 
+##### Error Response:
+Code: 401 UNAUTHORIZED
+ 
 Content: {"timestamp":1500306594978,"status":401,"error":"Unauthorized","message":"Bad credentials","path":"/mymessages"}
 
-Sample Call:
+##### Sample Call:
 curl -i -u superman:superman http://localhost:8080/followers
 
-Notes:
+##### Notes:
 
 _____________
 follow
